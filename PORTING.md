@@ -14,7 +14,7 @@ Keep the upstream history and functionality intact where possible. V13.351-speci
 
 ## Status
 
-- [ ] Module identity / manifest adapted
+- [x] Module identity / manifest adapted
 - [ ] Foundry V13 API compatibility
 - [ ] UI applications
 - [ ] Socket/query layer
