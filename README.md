@@ -1,7 +1,9 @@
 # ⚠️ ATENTION! ⚠️
-This is a FORK made for Foundry VTT v13.351 cus i really love how amazing this module is and wanted to use it on my most used version of Foundry. Thanks Mestre Digital for this incredible module! 
-If anything on this fork isn't of your approval, i'm more than happy to remove it if you ask me to.
-Warnings given, hope ya'll appreciate that module like i appreciate it!
+**This is a modified version of Claim Your Hero by Mestre Digital, adapted for Foundry VTT v13.351. All credits and merits are directed for him**
+
+When i first seen this module i just fell in love for it and wanted so bad to use it on my most used FoundryVTT version: v13.351, and was with this intention this fork was made. If anything her isn't of Mestre Digital approvement, you can enter in contact with me and i will be more than happy to modify and/or delete anything that isn't of your liking.
+
+Warnings given, hope ya'll appreciate that module just like i appreciate it and, once again, thanks Mestre Digital for this amazing module!
 
 > Original author: Mestre Digital / Bruno Calado.
 > 
