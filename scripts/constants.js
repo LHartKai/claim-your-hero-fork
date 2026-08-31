@@ -4,7 +4,7 @@
  */
 
 /** The module id, mirroring the `id` field of `module.json` (single source of truth). */
-export const MODULE_ID = "claim-your-hero";
+export const MODULE_ID = "claim-your-hero-v13-351";
 
 /** Keys for settings registered under the {@link MODULE_ID} namespace. */
 export const SETTINGS = {
