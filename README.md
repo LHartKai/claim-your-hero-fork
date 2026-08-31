@@ -7,10 +7,11 @@ If anything on this fork isn't to your approval, I'm more than happy to remove i
 
 Warnings given, hope y'all appreciate this module like I appreciate it!
 
-> **This is a modified version of Claim Your Hero by Mestre Digital, adapted for Foundry VTT v13.351.**
+> **This is a modified version of Claim Your Hero by Mestre Digital, adapted for Foundry VTT v13.351. All credit and merit go to him.**
+>
+> Original author: Mestre Digital / Bruno Calado.
 >
 > Original project: https://github.com/brunocalado/claim-your-hero
-> Original author: Mestre Digital / Bruno Calado.
 >
 > This modified version is distributed under the GNU General Public License v3.0, in accordance with the original project's license.
 
@@ -213,6 +214,7 @@ Give the gallery a backdrop from **Settings → Module Settings → Selection Ba
 Claim Your Hero is configured from **Settings → Module Settings**. Four panels handle the heavy lifting:
 
 | Panel | What it opens |
+|---|---|
 |---|---|
 | **Hero Roster → Configure Roster** | The GM Roster panel (players, heroes, assignment) |
 | **Team Roles → Configure Roles** | The role catalog and recommended composition |
