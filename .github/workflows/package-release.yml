@@ -33,7 +33,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: claim-your-hero-v13-351
-          path: package/claim-your-hero-v13-351
+          path: package
           if-no-files-found: error
 
       - name: Create or update GitHub release
