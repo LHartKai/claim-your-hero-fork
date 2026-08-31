@@ -1,0 +1,40 @@
+name: Build Foundry Module
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout V13.351
+        uses: actions/checkout@v4
+        with:
+          ref: v13.351
+
+      - name: Build Foundry package
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -rf build
+          mkdir -p build/claim-your-hero-v13-351
+          rsync -a --exclude='.git' --exclude='.github' --exclude='build' ./ build/claim-your-hero-v13-351/
+          cd build
+          zip -r ../claim-your-hero-v13-351.zip claim-your-hero-v13-351
+
+      - name: Create or update release asset
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          gh release view v13.351 --repo "${{ github.repository }}" >/dev/null 2>&1 || \
+            gh release create v13.351 \
+              --repo "${{ github.repository }}" \
+              --title "Claim Your Hero V13.351" \
+              --notes "V13.351 distribution package for Foundry VTT."
+          gh release upload v13.351 claim-your-hero-v13-351.zip \
+            --repo "${{ github.repository }}" \
+            --clobber
