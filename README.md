@@ -163,6 +163,7 @@ Each hero's presentation editor has a **Description Source** picker that overrid
 
 | Mode | What it shows |
 |---|---|
+|---|---|
 | **Inherit from global setting** | Follows the toggle above |
 | **From Actor sheet (custom as fallback)** | Always reads the sheet, using the custom text when the sheet is empty |
 | **Custom text only** | Always uses the text you wrote, ignoring the sheet |
@@ -237,14 +238,14 @@ Claim Your Hero uses Foundry's native socket layer and query system so every pic
 Install via the Foundry VTT Module browser or use this manifest link:
 
 ```
-https://raw.githubusercontent.com/brunocalado/claim-your-hero/main/module.json
+https://raw.githubusercontent.com/LHartKai/claim-your-hero-fork/v13.351/module.json
 ```
 
 ---
 
 ## 🐛 Bug Reports & Feature Requests
 
-https://github.com/brunocalado/claim-your-hero/issues
+https://github.com/LHartKai/claim-your-hero-fork/issues
 
 ---
 
