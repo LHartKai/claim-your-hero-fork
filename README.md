@@ -1,3 +1,10 @@
+# ⚠️ ATENTION! ⚠️
+This is a FORK made for Foundry VTT v13.351 cus i really love how amazing this module is and wanted to use it on my most used version of Foundry. Thanks Mestre Digital for this incredible module! 
+If anything on this fork isn't of your approval, i'm more than happy to remove it if you ask me to.
+Warnings given, hope ya'll appreciate that module like i appreciate it!
+
+---
+
 # ⚔️ Claim Your Hero
 
 > 🇧🇷 **Leia este README em Português:** [versão traduzida (pt-BR)](docs/README-ptbr.md)
