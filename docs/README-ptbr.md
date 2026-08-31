@@ -1,3 +1,18 @@
+# ⚠️ ATENÇÃO! ⚠️
+**Essa é uma versão modificada de Claim Your Hero feita pelo Mestre Digital, adaptada para o Foundry VTT v13.351. Todos os devidos créditos e méritos são direcionados a ele.**
+
+Quando vi esse módulo pela primeira vez, simplesmente me apaixonei por ele e queria poder usá-lo também na minha versão mais utilizada do FoundryVTT: v13.351, e é com essa intenção que esse fork foi feito. Se qualquer coisa nessa fork não for da aprovação do Mestre Digital, você pode entrar em contato comigo e eu farei qualquer modificação ou remoção que for de seu agrado.
+
+Avisos dados, espero que todos possam apreciar esse módulo tanto quanto eu o aprecio e, mais uma vez, obrigada, Mestre Digital, por esse módulo maravilhoso!
+
+> Autor original: Mestre Digital / Bruno Calado.
+>
+> Projeto original: https://github.com/brunocalado/claim-your-hero
+
+Esta versão modificada é distribuída sob a GNU General Public License v3.0, de acordo com a licença do projeto original.
+
+---
+
 # ⚔️ Claim Your Hero
 
 > 🇺🇸 **Read this README in English:** [English version](../README.md)
@@ -214,14 +229,14 @@ O Claim Your Hero usa a camada de socket nativa e o sistema de consultas do Foun
 Instale pelo navegador de Módulos do Foundry VTT ou use este link de manifesto:
 
 ```
-https://raw.githubusercontent.com/brunocalado/claim-your-hero/main/module.json
+https://raw.githubusercontent.com/LHartKai/claim-your-hero-fork/v13.351/module.json
 ```
 
 ---
 
 ## 🐛 Relatos de Bugs & Pedidos de Funcionalidades
 
-https://github.com/brunocalado/claim-your-hero/issues
+https://github.com/LHartKai/claim-your-hero-fork/issues
 
 ---
 
