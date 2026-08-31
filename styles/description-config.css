@@ -1,7 +1,7 @@
 /* Styles for DescriptionConfigApp (Actor-sourced description settings). */
-.claim-your-hero.description-config {
-  --claim-your-hero-toggle-off: rgb(70 70 73);
-  --claim-your-hero-toggle-on: rgb(76 175 114);
+.claim-your-hero-v13-351.description-config {
+  --claim-your-hero-v13-351-toggle-off: rgb(70 70 73);
+  --claim-your-hero-v13-351-toggle-on: rgb(76 175 114);
 
   background: var(--color-cool-5, rgb(11 10 19));
 
@@ -22,7 +22,7 @@
     padding: 0.6rem 0.7rem;
     border: 1px solid var(--color-cool-3, #4d4b66);
     border-radius: 8px;
-    background: var(--claim-your-hero-card-bg, #0b090c);
+    background: var(--claim-your-hero-v13-351-card-bg, #0b090c);
 
     > label {
       font-weight: bold;
@@ -64,7 +64,7 @@
     padding: 0;
     border: none;
     border-radius: 1rem;
-    background: var(--claim-your-hero-toggle-off);
+    background: var(--claim-your-hero-v13-351-toggle-off);
     cursor: pointer;
     transition: background-color 0.2s ease;
   }
@@ -90,7 +90,7 @@
   }
 
   input[type="checkbox"]:checked {
-    background: var(--claim-your-hero-toggle-on);
+    background: var(--claim-your-hero-v13-351-toggle-on);
   }
 
   input[type="checkbox"]:checked::before {

@@ -1,5 +1,5 @@
 /* Styles for VisualConfigApp (selection screen background settings). */
-.claim-your-hero.visual-config {
+.claim-your-hero-v13-351.visual-config {
   background: var(--color-cool-5, rgb(11 10 19));
 
   .visual-config-body {
@@ -19,7 +19,7 @@
     padding: 0.6rem 0.7rem;
     border: 1px solid var(--color-cool-3, #4d4b66);
     border-radius: 8px;
-    background: var(--claim-your-hero-card-bg, #0b090c);
+    background: var(--claim-your-hero-v13-351-card-bg, #0b090c);
 
     > label {
       font-weight: bold;

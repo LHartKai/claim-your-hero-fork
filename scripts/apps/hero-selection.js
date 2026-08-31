@@ -194,13 +194,13 @@ export class HeroSelectionApp extends HandlebarsApplicationMixin(ApplicationV2) 
     for (let i = 0; i < 48; i++) {
       const particle = document.createElement("span");
       const { style } = particle;
-      style.setProperty("--claim-your-hero-particle-x", `${Math.random() * 100}%`);
-      style.setProperty("--claim-your-hero-particle-size", `${2 + Math.random() * 5}px`);
-      style.setProperty("--claim-your-hero-particle-duration", `${7 + Math.random() * 9}s`);
+      style.setProperty("--claim-your-hero-v13-351-particle-x", `${Math.random() * 100}%`);
+      style.setProperty("--claim-your-hero-v13-351-particle-size", `${2 + Math.random() * 5}px`);
+      style.setProperty("--claim-your-hero-v13-351-particle-duration", `${7 + Math.random() * 9}s`);
       // Negative delay starts each ember mid-flight so the field is full immediately.
-      style.setProperty("--claim-your-hero-particle-delay", `${-Math.random() * 16}s`);
-      style.setProperty("--claim-your-hero-particle-drift", `${(Math.random() - 0.5) * 120}px`);
-      style.setProperty("--claim-your-hero-particle-opacity", `${0.3 + Math.random() * 0.5}`);
+      style.setProperty("--claim-your-hero-v13-351-particle-delay", `${-Math.random() * 16}s`);
+      style.setProperty("--claim-your-hero-v13-351-particle-drift", `${(Math.random() - 0.5) * 120}px`);
+      style.setProperty("--claim-your-hero-v13-351-particle-opacity", `${0.3 + Math.random() * 0.5}`);
       layer.appendChild(particle);
     }
     this.element.prepend(layer);

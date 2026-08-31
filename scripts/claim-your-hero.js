@@ -189,11 +189,11 @@ Hooks.on("renderActorDirectory", (app, element) => {
   const root = element instanceof HTMLElement ? element : element?.[0];
   if (!root) return;
   // Re-renders reuse the same element, so drop any previously injected button first.
-  root.querySelector(".claim-your-hero.roster-alert")?.remove();
+  root.querySelector(".claim-your-hero-v13-351.roster-alert")?.remove();
   if (!game.users.some(u => countRevocableViews(u) > 0)) return;
   const button = document.createElement("button");
   button.type = "button";
-  button.className = "claim-your-hero roster-alert";
+  button.className = "claim-your-hero-v13-351 roster-alert";
   button.innerHTML = `<i class="fa-solid fa-users-viewfinder"></i> ${game.i18n.localize("CYH.RosterConfig.DirectoryAlert")}`;
   button.addEventListener("click", () => new RosterConfigApp().render({ force: true }));
   // Drop it into the header's action-button row (below Create Actor / Create Folder)

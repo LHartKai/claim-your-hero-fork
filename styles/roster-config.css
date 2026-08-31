@@ -1,5 +1,5 @@
 /* Styles for RosterConfigApp (GM roster panel). */
-.claim-your-hero.roster-config {
+.claim-your-hero-v13-351.roster-config {
   /* Replace the core glassmorphism with an opaque surface, per maintainer request. */
   background: var(--color-cool-5, rgb(11 10 19));
 
@@ -51,7 +51,7 @@
 
   .drop-zone:hover,
   .drop-zone.drag-over {
-    border-color: var(--claim-your-hero-accent);
+    border-color: var(--claim-your-hero-v13-351-accent);
     color: var(--color-text-primary, #f0f0f0);
   }
 
@@ -86,7 +86,7 @@
   .player-row {
     padding: 0.4rem 0.6rem;
     border-color: var(--color-border, rgba(255, 255, 255, 0.18));
-    background: var(--claim-your-hero-card-bg, #0b090c);
+    background: var(--claim-your-hero-v13-351-card-bg, #0b090c);
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.35);
   }
 
@@ -224,13 +224,13 @@
   .drop-slot.filled {
     justify-content: flex-start;
     border-style: solid;
-    border-color: var(--claim-your-hero-accent);
+    border-color: var(--claim-your-hero-v13-351-accent);
     color: var(--color-text-primary, #f0f0f0);
   }
 
   .player-row.drag-over .drop-slot {
-    border-color: var(--claim-your-hero-accent);
-    color: var(--claim-your-hero-accent);
+    border-color: var(--claim-your-hero-v13-351-accent);
+    color: var(--claim-your-hero-v13-351-accent);
   }
 
   .hero-row[draggable] {
@@ -257,7 +257,7 @@
     padding: 0.1rem 0.4rem;
     border-radius: 10px;
     font-size: var(--font-size-12, 0.75rem);
-    color: var(--claim-your-hero-accent);
+    color: var(--claim-your-hero-v13-351-accent);
     background: var(--color-cool-5-50, rgba(0, 0, 0, 0.25));
     cursor: help;
 
@@ -268,7 +268,7 @@
 
   /* Cleanup button gains the accent only while there is something to clean. */
   .clean-permissions.has-pending {
-    color: var(--claim-your-hero-accent);
-    border-color: var(--claim-your-hero-accent);
+    color: var(--claim-your-hero-v13-351-accent);
+    border-color: var(--claim-your-hero-v13-351-accent);
   }
 }

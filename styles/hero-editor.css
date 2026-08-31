@@ -1,5 +1,5 @@
 /* Styles for HeroEditorApp (per-hero presentation form). */
-.claim-your-hero.hero-editor {
+.claim-your-hero-v13-351.hero-editor {
   /* Fully opaque surface for high contrast against the field cards. */
   background: var(--color-cool-5, #0b0a13);
 
@@ -43,7 +43,7 @@
     padding: 0.6rem 0.7rem;
     border: 1px solid var(--color-cool-3, #4d4b66);
     border-radius: 8px;
-    background: var(--claim-your-hero-card-bg, #0b090c);
+    background: var(--claim-your-hero-v13-351-card-bg, #0b090c);
   }
 
   .field-label,

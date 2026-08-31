@@ -62,7 +62,7 @@ export const SYSTEM_DESCRIPTION_PATHS = {
 };
 
 /** Issue tracker where users can request a built-in description path for their system. */
-export const ISSUES_URL = "https://github.com/brunocalado/claim-your-hero/issues";
+export const ISSUES_URL = "https://github.com/brunocalado/claim-your-hero-v13-351/issues";
 
 /** Name of the world Folder that receives Actors imported from Compendiums. */
 export const FOLDER_NAME = "Claim Your Hero";

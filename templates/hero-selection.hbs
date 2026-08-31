@@ -7,7 +7,7 @@
   {{else}}
   <img class="stage-bg" src="{{visualBg.src}}" alt="">
   {{/if}}
-  <div class="stage-bg-overlay" style="--claim-your-hero-overlay-opacity: {{visualBg.overlayOpacity}}"></div>
+  <div class="stage-bg-overlay" style="--claim-your-hero-v13-351-overlay-opacity: {{visualBg.overlayOpacity}}"></div>
   {{/if}}
   <header class="stage-header">
     <h1>{{title}}</h1>
@@ -59,7 +59,7 @@
       {{#if this.interested.length}}
       <div class="interest-pips">
         {{#each this.interested}}
-        <span class="pip{{#if this.self}} self{{/if}}" style="--claim-your-hero-user-color: {{this.color}}"
+        <span class="pip{{#if this.self}} self{{/if}}" style="--claim-your-hero-v13-351-user-color: {{this.color}}"
               data-tooltip="{{this.name}}">{{this.initial}}</span>
         {{/each}}
       </div>

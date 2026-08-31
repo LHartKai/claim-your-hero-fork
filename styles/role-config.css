@@ -1,5 +1,5 @@
 /* Styles for RoleConfigApp (GM role catalog + recommended-composition picker). */
-.claim-your-hero.role-config {
+.claim-your-hero-v13-351.role-config {
   /* Fully opaque surface — no glassmorphism. */
   background: var(--color-cool-5, #0b0a13);
 
@@ -58,7 +58,7 @@
     padding: 0.5rem;
     border: 1px solid var(--color-cool-3, #4d4b66);
     border-radius: 8px;
-    background: var(--claim-your-hero-card-bg, #0b090c);
+    background: var(--claim-your-hero-v13-351-card-bg, #0b090c);
   }
 
   /* Icon, name and remove share one row, vertically centred so their heights line up. */
