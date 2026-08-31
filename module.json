@@ -1,7 +1,7 @@
 {
   "id": "claim-your-hero-v13-351",
   "title": "Claim Your Hero — V13.351",
-  "version": "0.1.4.1",
+  "version": "0.1.5",
   "description": "An immersive hero selection screen: the GM builds a roster of Actors and players claim their character in real time, contesting picks until they confirm. V13.351 adaptation.",
 
   "compatibility": {
