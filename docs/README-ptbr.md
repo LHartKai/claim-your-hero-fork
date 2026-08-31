@@ -1,7 +1,7 @@
 # ⚠️ ATENÇÃO! ⚠️
 **Essa é uma versão modificada de Claim Your Hero feito pelo Mestre Digital, adaptada para o Foundry VTT v13.351. Todos devidos crédito e méritos direcionados a ele.**
 
-Quando vi esse modulo pela primeira vez, simplesmente me apaixonei por ele e queria poder usa-lo também na minha versão mais utilizada do FoundryVTT: v13.361, e é com essa intenção que esse fork foi feito. Se qualquer coisa nessa fork não for da aprovação do Mestre Digital, você pode entrar em contato comigo e eu farei qualquer modificação ou remoção que for de seu agrado. 
+Quando vi esse modulo pela primeira vez, simplesmente me apaixonei por ele e queria poder usa-lo também na minha versão mais utilizada do FoundryVTT: v13.351, e é com essa intenção que esse fork foi feito. Se qualquer coisa nessa fork não for da aprovação do Mestre Digital, você pode entrar em contato comigo e eu farei qualquer modificação ou remoção que for de seu agrado. 
 
 Avisos dados, espero que todos possam apreciar esse modulo tanto quanto eu o aprecio e, mais uma vez, obrigada Mestre Digital por esse modulo maravilhoso!
 
