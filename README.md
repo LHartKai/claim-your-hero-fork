@@ -3,9 +3,8 @@ This is a FORK made for Foundry VTT v13.351 cus i really love how amazing this m
 If anything on this fork isn't of your approval, i'm more than happy to remove it if you ask me to.
 Warnings given, hope ya'll appreciate that module like i appreciate it!
 
-> Original project: https://github.com/brunocalado/claim-your-hero
->
 > Original author: Mestre Digital / Bruno Calado.
+> Original project: https://github.com/brunocalado/claim-your-hero
 
 This modified version is distributed under the GNU General Public License v3.0, in accordance with the original project's license.
 
