@@ -1,0 +1,64 @@
+name: Rename module identifiers
+
+on:
+  push:
+    branches:
+      - v13.351
+
+permissions:
+  contents: write
+
+jobs:
+  rename:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: v13.351
+          fetch-depth: 0
+
+      - name: Rename legacy module identifier in source files
+        shell: python
+        run: |
+          from pathlib import Path
+          import re
+
+          root = Path('.')
+          old = re.compile(r'claim-your-hero(?!-v13-351)')
+          allowed = {
+              '.css', '.js', '.hbs', '.json'
+          }
+
+          changed = []
+          for base in (root / 'styles', root / 'scripts', root / 'templates'):
+              if not base.exists():
+                  continue
+              for path in base.rglob('*'):
+                  if not path.is_file() or path.suffix.lower() not in allowed:
+                      continue
+                  text = path.read_text(encoding='utf-8')
+                  new = old.sub('claim-your-hero-v13-351', text)
+                  if new != text:
+                      path.write_text(new, encoding='utf-8')
+                      changed.append(str(path))
+
+          if changed:
+              print('Updated:')
+              for path in changed:
+                  print(f' - {path}')
+          else:
+              print('No legacy module identifiers found in source files.')
+
+      - name: Commit fixes and remove this temporary workflow
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add styles scripts templates
+          git rm .github/workflows/rename-module-id.yml
+          if git diff --cached --quiet; then
+            echo "Nothing to commit."
+            exit 0
+          fi
+          git commit -m "fix: align source identifiers with fork module ID"
+          git push origin v13.351
