@@ -3,6 +3,14 @@ Essa FORK foi feita para a v13.351 do Foundry VTT. Eu amei esse modulo e queria 
 Se qualquer coisa nessa fork não for de sua aprovação, eu ficarei mais do que feliz em atender seu pedido e deleta-la.
 Avisos dados, espero que todos possam apreciar esse modulo tanto quanto eu o aprecio!
 
+> Autor original: Mestre Digital / Bruno Calado.
+> 
+> Projeto original: https://github.com/brunocalado/claim-your-hero
+
+Esta versão modificada é distribuída sob a GNU General Public License v3.0, de acordo com a licença do projeto original.
+
+---
+
 # ⚔️ Claim Your Hero
 
 > 🇺🇸 **Read this README in English:** [English version](../README.md)
