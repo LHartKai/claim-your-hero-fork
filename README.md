@@ -4,7 +4,9 @@ If anything on this fork isn't of your approval, i'm more than happy to remove i
 Warnings given, hope ya'll appreciate that module like i appreciate it!
 
 > Original project: https://github.com/brunocalado/claim-your-hero
+>
 > Original author: Mestre Digital / Bruno Calado.
+
 This modified version is distributed under the GNU General Public License v3.0, in accordance with the original project's license.
 
 ---
