@@ -4,7 +4,7 @@
  */
 
 /** The module id, mirroring the `id` field of `module.json` (single source of truth). */
-export const MODULE_ID = "claim-your-hero-v13-351";
+export const MODULE_ID = "claim-your-hero";
 
 /** Keys for settings registered under the {@link MODULE_ID} namespace. */
 export const SETTINGS = {
@@ -62,7 +62,7 @@ export const SYSTEM_DESCRIPTION_PATHS = {
 };
 
 /** Issue tracker where users can request a built-in description path for their system. */
-export const ISSUES_URL = "https://github.com/brunocalado/claim-your-hero-v13-351/issues";
+export const ISSUES_URL = "https://github.com/LHartKai/claim-your-hero-fork/issues";
 
 /** Name of the world Folder that receives Actors imported from Compendiums. */
 export const FOLDER_NAME = "Claim Your Hero";
