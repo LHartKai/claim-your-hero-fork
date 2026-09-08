@@ -1,5 +1,3 @@
-# ⚔️ Claim Your Hero
-
 # ⚠️ ATTENTION! ⚠️
 This is a **FORK** of Claim Your Hero made for **Foundry VTT v13.351** because I really love how amazing this module is and wanted to use it on my most-used version of Foundry. Thanks, Mestre Digital, for this incredible module!
 
@@ -16,6 +14,12 @@ Warnings given, hope y'all appreciate this module like I appreciate it!
 > This modified version is distributed under the GNU General Public License v3.0, in accordance with the original project's license.
 
 ---
+
+# ⚔️ Claim Your Hero
+
+---
+
+> 🇧🇷 **Leia este README em Português:** [versão traduzida (pt-BR)](docs/README-ptbr.md)
 
 **Turn character selection into a moment your players will remember.**
 
