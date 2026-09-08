@@ -23,7 +23,7 @@ jobs:
           mkdir -p build/claim-your-hero
           rsync -a --exclude='.git' --exclude='.github' --exclude='build' ./ build/claim-your-hero/
           cd build
-          zip -r ../claim-your-hero-v13-351.zip claim-your-hero
+          zip -r ../claim-your-hero.zip claim-your-hero
 
       - name: Create or update release asset
         env:
@@ -35,6 +35,6 @@ jobs:
               --repo "${{ github.repository }}" \
               --title "Claim Your Hero V13.351" \
               --notes "V13.351 distribution package for Foundry VTT."
-          gh release upload v13.351 claim-your-hero-v13-351.zip \
+          gh release upload v13.351 claim-your-hero.zip \
             --repo "${{ github.repository }}" \
             --clobber
